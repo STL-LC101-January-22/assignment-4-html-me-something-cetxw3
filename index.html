@@ -2,6 +2,7 @@
 <html>
    <head>
       <title>Mushrooms of Missouri</title>
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
       <header>
@@ -9,35 +10,53 @@
          <h1>Mushrooms of Missouri</h1>
          <p>Most people new to mushroom hunting have one basic question: Is it edible or is it poisonous? To answer this question, even experienced mushroom hunters practice caution. They check and double-check the identification of each mushroom, and, when in doubt, they throw it out.</p>
          <p>This website can help you enjoy Missouri’s wild mushrooms safely. Keep it handy to identify our state’s choicest edible mushrooms and to avoid those that could sicken you or worse.</p>
-         <a href="#anatomyOfAMushroom">Anatomy of a Mushroom</a>
-         <a href="#edibleMushrooms">Edible Mushrooms</a>
-         <a href="#bolete">Bolete</a>
-         <a href="#chanterelle">Chanterelle</a>
-         <a href="#henOfTheWoods">Hen of the Woods</a>
-         <a href="#morel">Morel</a>
-         <a href="#oyster">Oyster</a>
-         <a href="#poisonousMushrooms">Poisonous Mushrooms</a>
-         <a href="#amanita">Amanita</a>
-         <a href="#falseMorels">False Morels</a>
-         <a href="#greenSporedLepiota">Green-Spored Lepiota</a>
-         <a href="#jackOLantern">Jack-o'-Lantern</a>
-         <a href="#littleBrownMushrooms">Little Brown Mushrooms</a>
+         <div class="dropdown">
+            <button class="dropbtn">
+               <a href="#anatomyOfAMushroom">Anatomy of a Mushroom</a>
+            </button>
+         </div>
+         <div class="dropdown">
+            <button class="dropbtn">
+               <a href="#edibleMushrooms">Edible Mushrooms</a>
+            </button>
+            <div class="dropdown-content">
+               <a href="#bolete">Bolete</a>
+               <a href="#chanterelle">Chanterelle</a>
+               <a href="#henOfTheWoods">Hen of the Woods</a>
+               <a href="#morel">Morel</a>
+               <a href="#oyster">Oyster</a>
+            </div>
+         </div>
+            <div class="dropdown">
+               <button class="dropbtn">
+                  <a href="#poisonousMushrooms">Poisonous Mushrooms</a>
+               </button>
+               <div class="dropdown-content">
+                  <a href="#amanita">Amanita</a>
+                  <a href="#falseMorels">False Morels</a>
+                  <a href="#greenSporedLepiota">Green-Spored Lepiota</a>
+                  <a href="#jackOLantern">Jack-o'-Lantern</a>
+                  <a href="#littleBrownMushrooms">Little Brown Mushrooms</a>
+               </div>
+            </div>
       </header>
       <main>
       <hr>
       <article>
          <h2 id="anatomyOfAMushroom">Anatomy of a Mushroom</h2>
-         <p>Mushrooms are only a small part of a much larger organism. They are the fruiting bodies of fungi that release spores for reproduction. Often compared to an apple on an apple tree, a mushroom is attached to an extensive network of hairlike mycelium, the vegetative part of the fungus that is growing on or throughout wood, soil, or decaying matter.</p>
-         <p>To determine accurate identification, learn to identify the following features of a mushroom:</p>
-         <img src="Pictures/mushroom-parts.jpg" alt="Anatomy of a mushroom.">
-         <dl>
-            <dt>Cap and stalk.</dt>
-               <dd>The cap is the part of the mushroom that supports the spore-bearing surface while the stalk (stem or stipe) supports the cap. Caps and stalks vary greatly in size, shape, color, and texture among the many different species of mushrooms.</dd>
-            <dt>Pore surface.</dt>
-               <dd>This is the part of the mushroom through which spores are emitted. The pore surface can consist of gills, ridges, tubes, spines, or pits.</dd>
-            <dt>Volva and ring.</dt>
-               <dd> These are structures that persist on some mushrooms, yet they are absent on others. It is especially important to recognize these features because some of the most poisonous mushrooms have a persistent volva and ring.</dd>
-         </dl>
+         <section>
+            <p>Mushrooms are only a small part of a much larger organism. They are the fruiting bodies of fungi that release spores for reproduction. Often compared to an apple on an apple tree, a mushroom is attached to an extensive network of hairlike mycelium, the vegetative part of the fungus that is growing on or throughout wood, soil, or decaying matter.</p>
+            <p>To determine accurate identification, learn to identify the following features of a mushroom:</p>
+            <img src="Pictures/mushroom-parts.jpg" alt="Anatomy of a mushroom.">
+            <dl>
+               <dt>Cap and stalk.</dt>
+                  <dd>The cap is the part of the mushroom that supports the spore-bearing surface while the stalk (stem or stipe) supports the cap. Caps and stalks vary greatly in size, shape, color, and texture among the many different species of mushrooms.</dd>
+               <dt>Pore surface.</dt>
+                  <dd>This is the part of the mushroom through which spores are emitted. The pore surface can consist of gills, ridges, tubes, spines, or pits.</dd>
+               <dt>Volva and ring.</dt>
+                  <dd> These are structures that persist on some mushrooms, yet they are absent on others. It is especially important to recognize these features because some of the most poisonous mushrooms have a persistent volva and ring.</dd>
+            </dl>
+         </section>
       </article>
       <hr>
       <article>
