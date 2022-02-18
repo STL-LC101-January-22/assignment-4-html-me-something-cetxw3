@@ -1,3 +1,119 @@
+html {
+  background-color: #04AA6D;
+}
+
+body {
+  margin: 8px auto;
+  display: block;
+	width: 1024px;
+  background-color: #D1EBC4;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: darkslategray;
+}
+
+#bannerImage {
+  width: 1024px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-color: darkslategray;
+}
+
+header {
+  border-bottom-style: solid;
+  border-color: darkslategray;
+  padding: 25px;
+  text-align: center;
+}
+
+main, footer {
+  border-bottom-style: solid;
+  border-color: darkslategray;
+  padding: 25px;
+}
+
+a {
+  color: black;
+}
+
+#mainHeading {
+color: red;
+font-size: 42px;
+text-decoration: black 2px dotted underline;
+}
+
+#testP {
+  text-align: left;
+}
+
+.funParagraph {
+  color: green;
+}
+
+h2 {
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+article{
+  border-bottom-style: solid;
+  border-color: darkslategray;
+}
+
+#articleBottom{
+  border-style: none;
+}
+
+section {
+  border-bottom-style: solid;
+  border-color: darkslategray;
+  border-width: 1px;
+}
+
+#sectionBottom{
+  border-style: none;
+}
+
+figure {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  float: left;
+}
+
+figcaption {
+  font-size: 10px;
+}
+
+img {
+  max-height: 150px;
+}
+
+dt {
+  font-weight: bold;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+dd {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+footer{
+  text-align: center;
+  line-height: 50%;
+  font-size: 12px;
+}
+
+
+
+
 .dropbtn {
     background-color: #04AA6D;
     color: white;
@@ -18,6 +134,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-align: center;
   }
   
   .dropdown-content a {
@@ -32,7 +149,3 @@
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-  a {
-      color: black;
-  }

@@ -5,11 +5,12 @@
       <link rel="stylesheet" href="styles.css">
    </head>
    <body>
+      <img src="Pictures/mushroom-banner.jpg" alt="Mushroom banner" id="bannerImage">
       <header>
-         <img src="Pictures/mushroom-banner.jpg" alt="Mushroom banner">
-         <h1>Mushrooms of Missouri</h1>
-         <p>Most people new to mushroom hunting have one basic question: Is it edible or is it poisonous? To answer this question, even experienced mushroom hunters practice caution. They check and double-check the identification of each mushroom, and, when in doubt, they throw it out.</p>
-         <p>This website can help you enjoy Missouri’s wild mushrooms safely. Keep it handy to identify our state’s choicest edible mushrooms and to avoid those that could sicken you or worse.</p>
+         <h1 id="mainHeading">Mushrooms of Missouri</h1>
+         <p id="testP" class="funParagraph">Most people new to mushroom hunting have one basic question: Is it edible or is it poisonous? To answer this question, even experienced mushroom hunters practice caution. They check and double-check the identification of each mushroom, and, when in doubt, they throw it out.
+            <br><br>
+            This website can help you enjoy Missouri’s wild mushrooms safely. Keep it handy to identify our state’s choicest edible mushrooms and to avoid those that could sicken you or worse.</p>
          <div class="dropdown">
             <button class="dropbtn">
                <a href="#anatomyOfAMushroom">Anatomy of a Mushroom</a>
@@ -41,13 +42,14 @@
             </div>
       </header>
       <main>
-      <hr>
       <article>
          <h2 id="anatomyOfAMushroom">Anatomy of a Mushroom</h2>
          <section>
             <p>Mushrooms are only a small part of a much larger organism. They are the fruiting bodies of fungi that release spores for reproduction. Often compared to an apple on an apple tree, a mushroom is attached to an extensive network of hairlike mycelium, the vegetative part of the fungus that is growing on or throughout wood, soil, or decaying matter.</p>
             <p>To determine accurate identification, learn to identify the following features of a mushroom:</p>
-            <img src="Pictures/mushroom-parts.jpg" alt="Anatomy of a mushroom.">
+            <figure>
+               <img src="Pictures/mushroom-parts.jpg" alt="Anatomy of a mushroom." id="imgMushroomAnatomy">
+            </figure>
             <dl>
                <dt>Cap and stalk.</dt>
                   <dd>The cap is the part of the mushroom that supports the spore-bearing surface while the stalk (stem or stipe) supports the cap. Caps and stalks vary greatly in size, shape, color, and texture among the many different species of mushrooms.</dd>
@@ -58,7 +60,6 @@
             </dl>
          </section>
       </article>
-      <hr>
       <article>
          <h2 id="edibleMushrooms">Edible Mushrooms</h2>
          <section>
@@ -133,7 +134,7 @@
                   <dd>Depending on the species and growing conditions, chanterelles
                      can vary in size from ½–6 inches tall and ½–6 inches wide.</dd>
                <dt>When and Where</dt>
-                  <dd>:Chanterelles are found growing on the ground in
+                  <dd>Chanterelles are found growing on the ground in
                      grass or leaf litter in hardwood forests during the summer and fall (May–
                      September). They are never on decaying wood or trees, which can be
                      buried, giving the appearance of growing on the ground. Chanterelles are especially common when the weather has been hot and humid.</dd>
@@ -284,8 +285,7 @@
             </dl>
          </section>
       </article>
-      <hr>
-      <article>
+      <article id="articleBottom">
          <h2 id="poisonousMushrooms">Poisonous Mushrooms</h2>
          <section>
             <h3 id="amanita">Amanita</h3>
@@ -365,7 +365,7 @@
          </section>
          <section>
             <h3 id="jackOLantern">Jack-o'-Lantern</h3>
-            
+            <figure>
                <img src="Pictures/poisonous-jack-o-lantern.jpg" alt="Jack o lantern">
                <figcaption>Pictured: <i>Omphalotus olearius</i></figcaption>
             </figure>
@@ -394,9 +394,9 @@
                      (July–October) at the base of trees, on stumps, or on buried wood.</dd>
             </dl>
          </section>
-         <section>
+         <section id="sectionBottom">
             <h3 id="littleBrownMushrooms">Little Brown Mushrooms</h3>
-            
+            <figure>
                <img src="Pictures/poisonous-little-brown-mushrooms.jpg" alt="Little brown mushrooms">
                <figcaption>Pictured: Deadly galerina <i>Galerina autumnalis</i></figcaption>
             </figure>
@@ -418,7 +418,6 @@
             </dl>
          </section>
       </article>
-      <hr>
       </main>
       <footer>
          <p>&copy; 2018 "A Guide to Missouri’s
